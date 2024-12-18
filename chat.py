@@ -72,7 +72,7 @@ def main():
 
     # Step 4: Set up RAG pipeline with fine-tuned model
     print("Setting up RAG pipeline with fine-tuned model...")
-    rag_pipeline = create_rag_pipeline(vector_store, model="gpt-4")  # Using the fine-tuned GPT model here
+    rag_pipeline = create_rag_pipeline(vector_store, model="gpt-4o-mini")  # Using the fine-tuned GPT model here
 
     # Step 5: Chatbot-like interaction
     print("Chatbot is ready. Type your queries below:")

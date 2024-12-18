@@ -17,7 +17,10 @@ This project demonstrates how to build a Retrieval-Augmented Generation (RAG) ba
 - Python 
 - OpenAI Python client (`openai`)
 - LangChain library (`langchain`)
-- FAISS library 
+- FAISS library
+- OpenAI API Key
+- Knowledge_base file : The context of the chatbot like projects, blogs, documents specified fields, etc..,
+- Training_data file : For fine tuning model (should be in json format)
 
 ## Installation
 
